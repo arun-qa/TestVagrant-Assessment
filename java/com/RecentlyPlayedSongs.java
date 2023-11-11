@@ -28,7 +28,7 @@ public class RecentlyPlayedSongs {
 		// Remove the song if it's already in the playlist
 		playlist.remove(song);
 
-		// Add the song to the front of the playlist
+		// Add the song to the last of the playlist
 		playlist.addLast(song);
 
 		// Remove the least recently played song if the playlist exceeds capacity
